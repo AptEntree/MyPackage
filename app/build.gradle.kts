@@ -7,6 +7,11 @@ android {
     namespace = "com.example.mypackage"
     compileSdk = 33
 
+
+    viewBinding {
+         enable = true
+    }
+
     defaultConfig {
         applicationId = "com.example.mypackage"
         minSdk = 28
@@ -33,6 +38,8 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+
 }
 
 dependencies {
